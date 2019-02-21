@@ -17,10 +17,10 @@
 <body>
   <h1>My first HLS player</h1>
   
-<video id=example-video width=960 height=540 class="video-js vjs-default-skin" controls>
-  <source
-     src="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8"
-     type="application/x-mpegURL">
+<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+       poster="http://vjs.zencdn.net/v/oceans.png"
+       data-setup='{"techOrder": ["flash"]}'>
+    <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
 </video>
 <script src="video.js"></script>
 <script src="videojs.hls.min.js"></script>
