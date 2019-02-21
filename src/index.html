@@ -17,9 +17,17 @@
 <body>
   <h1>My first HLS player</h1>
   
-  <!--
-  location for your player window
-  -->
+<video id=example-video width=960 height=540 class="video-js vjs-default-skin" controls>
+  <source
+     src="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8"
+     type="application/x-mpegURL">
+</video>
+<script src="video.js"></script>
+<script src="videojs.hls.min.js"></script>
+<script>
+var player = videojs('example-video');
+player.play();
+</script>
   
 	<button type="button">Play</button>
 	<button type="button">Pause</button>
