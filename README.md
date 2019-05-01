@@ -1,6 +1,7 @@
 # MT-Lab1
 
 nėra "Shuffle" funkcijos
+
 Patikrinta su "Chrome" ir "Edge" naršyklėmis
 
 Multimedijos sistemos. Laboratorinis darbas Nr.1 ir Nr.2
