@@ -1,4 +1,8 @@
 # MT-Lab1
+
+nėra "Shuffle" funkcijos
+Patikrinta su "Chrome" ir "Edge" naršyklėmis
+
 Multimedijos sistemos. Laboratorinis darbas Nr.1 ir Nr.2
 
 This lab aims to build your first HTML5 live stream (HLS) player.
